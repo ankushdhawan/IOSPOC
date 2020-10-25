@@ -26,6 +26,15 @@
 		10F34038254585A800ACC83A /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F34032254585A700ACC83A /* APIResponse.swift */; };
 		10F34039254585A800ACC83A /* PostServicePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F34033254585A800ACC83A /* PostServicePath.swift */; };
 		10F3403C2545860800ACC83A /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3403B2545860800ACC83A /* CountryModel.swift */; };
+		10F3404B25459D5C00ACC83A /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3404A25459D5C00ACC83A /* CustomFlowLayout.swift */; };
+		10F3404F25459D7800ACC83A /* Globel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3404C25459D7600ACC83A /* Globel.swift */; };
+		10F3405025459D7800ACC83A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3404D25459D7700ACC83A /* Constants.swift */; };
+		10F3405125459D7800ACC83A /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3404E25459D7800ACC83A /* ColorManager.swift */; };
+		10F3405325459DC100ACC83A /* Country.json in Resources */ = {isa = PBXBuildFile; fileRef = 10F3405225459DC100ACC83A /* Country.json */; };
+		10F3405725459E7000ACC83A /* ScaledHeightImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3405625459E7000ACC83A /* ScaledHeightImageView.swift */; };
+		10F3405D25459EDD00ACC83A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3405C25459EDD00ACC83A /* ViewControllerExtension.swift */; };
+		10F3405F25459EF600ACC83A /* AlertViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3405E25459EF600ACC83A /* AlertViewControllerExtension.swift */; };
+		10F3406125459F1500ACC83A /* CollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3406025459F1500ACC83A /* CollectionView+Extension.swift */; };
 		234A1B750D16BE22D857CEE8 /* Pods_IosPocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB69725160E063ECAD2AB4C /* Pods_IosPocTests.framework */; };
 		589A8DCAE99B667B938594B5 /* Pods_IosPocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17987CDFBF2C39C47773BC4D /* Pods_IosPocUITests.framework */; };
 		6F6C7CC07CED6C994F1D7E62 /* Pods_IosPoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E445B3DD85E321DBDF93F04 /* Pods_IosPoc.framework */; };
@@ -75,6 +84,15 @@
 		10F34032254585A700ACC83A /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		10F34033254585A800ACC83A /* PostServicePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostServicePath.swift; sourceTree = "<group>"; };
 		10F3403B2545860800ACC83A /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		10F3404A25459D5C00ACC83A /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		10F3404C25459D7600ACC83A /* Globel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globel.swift; sourceTree = "<group>"; };
+		10F3404D25459D7700ACC83A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10F3404E25459D7800ACC83A /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		10F3405225459DC100ACC83A /* Country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Country.json; sourceTree = "<group>"; };
+		10F3405625459E7000ACC83A /* ScaledHeightImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledHeightImageView.swift; sourceTree = "<group>"; };
+		10F3405C25459EDD00ACC83A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		10F3405E25459EF600ACC83A /* AlertViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewControllerExtension.swift; sourceTree = "<group>"; };
+		10F3406025459F1500ACC83A /* CollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extension.swift"; sourceTree = "<group>"; };
 		17987CDFBF2C39C47773BC4D /* Pods_IosPocUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosPocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3E59287DEBF608D9E84C48 /* Pods-IosPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosPoc.release.xcconfig"; path = "Target Support Files/Pods-IosPoc/Pods-IosPoc.release.xcconfig"; sourceTree = "<group>"; };
 		591806E8A6DC00481F011B7D /* Pods-IosPocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosPocUITests.release.xcconfig"; path = "Target Support Files/Pods-IosPocUITests/Pods-IosPocUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +159,8 @@
 		10F33FE52545796500ACC83A /* IosPoc */ = {
 			isa = PBXGroup;
 			children = (
+				10F3405425459DE800ACC83A /* Helper */,
+				10F3403D2545870C00ACC83A /* Resources */,
 				10F3403A254585DF00ACC83A /* Model */,
 				10F3402D2545858F00ACC83A /* Networking */,
 				10F340252545848800ACC83A /* ServiceClient */,
@@ -150,7 +170,6 @@
 				10F33FE82545796500ACC83A /* SceneDelegate.swift */,
 				10F33FEA2545796500ACC83A /* ViewController.swift */,
 				10F33FEC2545796500ACC83A /* Main.storyboard */,
-				10F33FEF2545796E00ACC83A /* Assets.xcassets */,
 				10F33FF12545796E00ACC83A /* LaunchScreen.storyboard */,
 				10F33FF42545796E00ACC83A /* Info.plist */,
 			);
@@ -243,6 +262,102 @@
 				10F3403B2545860800ACC83A /* CountryModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		10F3403D2545870C00ACC83A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10F3404925459D4F00ACC83A /* MockJson */,
+				10F3404825459D4400ACC83A /* Images */,
+				10F3404725459D1700ACC83A /* CustomLayout */,
+				10F3403E2545873700ACC83A /* Global */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		10F3403E2545873700ACC83A /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				10F3404E25459D7800ACC83A /* ColorManager.swift */,
+				10F3404D25459D7700ACC83A /* Constants.swift */,
+				10F3404C25459D7600ACC83A /* Globel.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		10F3404725459D1700ACC83A /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				10F3404A25459D5C00ACC83A /* CustomFlowLayout.swift */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		10F3404825459D4400ACC83A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				10F33FEF2545796E00ACC83A /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		10F3404925459D4F00ACC83A /* MockJson */ = {
+			isa = PBXGroup;
+			children = (
+				10F3405225459DC100ACC83A /* Country.json */,
+			);
+			path = MockJson;
+			sourceTree = "<group>";
+		};
+		10F3405425459DE800ACC83A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				10F3405B25459EB700ACC83A /* ViewController */,
+				10F3405A25459EAA00ACC83A /* AlertViewController */,
+				10F3405825459E7900ACC83A /* Extensions */,
+				10F3405525459E3100ACC83A /* SubClass */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		10F3405525459E3100ACC83A /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				10F3405625459E7000ACC83A /* ScaledHeightImageView.swift */,
+			);
+			path = SubClass;
+			sourceTree = "<group>";
+		};
+		10F3405825459E7900ACC83A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10F3405925459E9300ACC83A /* TableView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10F3405925459E9300ACC83A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				10F3406025459F1500ACC83A /* CollectionView+Extension.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		10F3405A25459EAA00ACC83A /* AlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10F3405E25459EF600ACC83A /* AlertViewControllerExtension.swift */,
+			);
+			path = AlertViewController;
+			sourceTree = "<group>";
+		};
+		10F3405B25459EB700ACC83A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10F3405C25459EDD00ACC83A /* ViewControllerExtension.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		1DC43F0C93AAE8523337CF56 /* Frameworks */ = {
@@ -379,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F3405325459DC100ACC83A /* Country.json in Resources */,
 				10F33FF32545796E00ACC83A /* LaunchScreen.storyboard in Resources */,
 				10F33FF02545796E00ACC83A /* Assets.xcassets in Resources */,
 				10F33FEE2545796500ACC83A /* Main.storyboard in Resources */,
@@ -493,18 +609,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F3403C2545860800ACC83A /* CountryModel.swift in Sources */,
+				10F3405025459D7800ACC83A /* Constants.swift in Sources */,
 				10F3401925457E6A00ACC83A /* RootNavVC.swift in Sources */,
 				10F340272545849F00ACC83A /* CountryDetailApiClient.swift in Sources */,
 				10F33FEB2545796500ACC83A /* ViewController.swift in Sources */,
 				10F34034254585A800ACC83A /* MockServices.swift in Sources */,
 				10F3401D25457EDC00ACC83A /* CountrylVC.swift in Sources */,
 				10F34038254585A800ACC83A /* APIResponse.swift in Sources */,
+				10F3405D25459EDD00ACC83A /* ViewControllerExtension.swift in Sources */,
 				10F34037254585A800ACC83A /* APIClient.swift in Sources */,
+				10F3405725459E7000ACC83A /* ScaledHeightImageView.swift in Sources */,
 				10F34035254585A800ACC83A /* APIEndPoint.swift in Sources */,
 				10F340242545841A00ACC83A /* CountryViewModel.swift in Sources */,
+				10F3405F25459EF600ACC83A /* AlertViewControllerExtension.swift in Sources */,
 				10F33FE72545796500ACC83A /* AppDelegate.swift in Sources */,
 				10F34039254585A800ACC83A /* PostServicePath.swift in Sources */,
+				10F3404F25459D7800ACC83A /* Globel.swift in Sources */,
 				10F34036254585A800ACC83A /* APIRequest.swift in Sources */,
+				10F3405125459D7800ACC83A /* ColorManager.swift in Sources */,
+				10F3404B25459D5C00ACC83A /* CustomFlowLayout.swift in Sources */,
+				10F3406125459F1500ACC83A /* CollectionView+Extension.swift in Sources */,
 				10F33FE92545796500ACC83A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
