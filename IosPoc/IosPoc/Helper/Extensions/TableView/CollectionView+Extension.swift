@@ -2,7 +2,7 @@
 //  TableView+Extension.swift
 //  Liscio
 //
-//  Created by Ankush on 03/11/17.
+//  Created by Ankush Dhawan on 10/24/20.
 //  Copyright © 2017 Ajay Singh Mehra. All rights reserved.
 //
 

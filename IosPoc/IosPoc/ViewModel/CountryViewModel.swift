@@ -36,8 +36,6 @@ class CountryViewModel : GenericViewModel{
         }
     }
     
-    
-    
     func callWebServices(servicePath : JCPostServicePath) {
         let resource = GenericResource(path: servicePath.path.rawValue, method:.GET)
         //Hit the api by sending resource object that holds all request parameter
@@ -48,7 +46,6 @@ class CountryViewModel : GenericViewModel{
                     let rows = country.rows.filter({ (model) -> Bool in
                         let status = (model.description != nil || model.title != nil || model.imageHref != nil)
                         return status
-
                     })
                    self.countryInfo = country
                    self.countryInfo?.rows = rows
@@ -57,9 +54,7 @@ class CountryViewModel : GenericViewModel{
             } else {
                 self.alertMessage = response.error.debugDescription
             }
-            
         }
-        
     }
 }
 

@@ -24,6 +24,7 @@ class RootNavVC: UINavigationController {
         // Set root view controller in the navigation
         let rootVC = CountryVC()
         rootVC.view.backgroundColor = UIColor.red
+        
         self.viewControllers = [rootVC]
     }
 

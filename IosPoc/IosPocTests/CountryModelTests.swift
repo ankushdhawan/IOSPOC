@@ -2,12 +2,12 @@
 //  CountryModelTests.swift
 //  POCTests
 //
-//  Created by Ankush on 3/10/19.
+//  Created by Ankush Dhawan on 10/25/20.
 //  Copyright © 2019 Reliance. All rights reserved.
 //
 
 import XCTest
-@testable import POC
+@testable import IosPoc
 class CountryModelTests: XCTestCase {
     var model:CountryModel! = nil
     override func setUp() {

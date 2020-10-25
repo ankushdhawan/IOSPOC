@@ -2,12 +2,12 @@
 //  CountryViewModelTest.swift
 //  POCTests
 //
-//  Created by Ankush on 3/9/19.
-//  Copyright © 2019 Reliance. All rights reserved.
+//  Created by Ankush Dhawan on 10/25/20.
+//  Copyright © 2020 Reliance. All rights reserved.
 //
 import Foundation
 import UIKit
-@testable import POC
+@testable import IosPoc
 import XCTest
 
 class CountryDetailViewModelTests: XCTestCase
@@ -57,7 +57,7 @@ class CountryDetailViewModelTests: XCTestCase
         
         mockAPIService = MockService()
         
-        let servicePath = JCPostServicePath.countryDetail()
+        let servicePath = JCPostServicePath.countryDetail
         var isSuccess = false
         var count = 0
         
@@ -79,7 +79,7 @@ class CountryDetailViewModelTests: XCTestCase
     }
     func testBasePathCorrect()
     {
-        let servicePath = JCPostServicePath.countryDetail()
+        let servicePath = JCPostServicePath.countryDetail
         let resource = GenericResource(path: servicePath.path.rawValue, method:.GET)
         let endPoint = JCConfigEndPoints()
         XCTAssertEqual(resource.basePath, endPoint.appMode.baseEndPoint())

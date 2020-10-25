@@ -15,7 +15,7 @@ protocol ParameterBodyMaker {
 
 internal enum JCPostServicePath : ParameterBodyMaker  {
     
-    case countryDetail()
+    case countryDetail
    // MARK: - Path
     internal var path: ServerPaths {
         switch self {
@@ -29,7 +29,7 @@ internal enum JCPostServicePath : ParameterBodyMaker  {
     internal var parameters: [String:Any]?  {
         _ = [String:Any]()
         switch self {
-        case .countryDetail():
+        case .countryDetail:
         return nil
     }
 }

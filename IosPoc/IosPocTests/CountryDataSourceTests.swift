@@ -2,7 +2,7 @@
 
 import Foundation
 import XCTest
-@testable import POC
+@testable import IosPoc
 
 class CountryDataSourceTests: XCTestCase {
     var dataSource: CountryDataSource!

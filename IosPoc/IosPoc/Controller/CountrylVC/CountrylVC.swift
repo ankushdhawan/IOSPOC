@@ -35,21 +35,14 @@ class CountryVC: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
    
-    
     override func viewWillLayoutSubviews() {
         addConstraint()
     }
     //MARK:DEVICE ORIENATATION Method(S)
     
-   
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         Constants.isIpad ? self.setLayoutForIpad() : ()
-        
     }
-    
-    
-   
-    
     
     //MARK:PRIVATE METHOD(S)
     func setLayoutForIpad()
@@ -65,13 +58,12 @@ class CountryVC: UIViewController {
             }
             flowLayout.reloadLayout()
             countryDescCollectionView.reloadData()
-        
     }
    
     func fetchCountryDetail()
     {
         showLoader(with: self.view)
-        let servicePath = JCPostServicePath.countryDetail()
+        let servicePath = JCPostServicePath.countryDetail
         viewModelCountry.callWebServices(servicePath: servicePath)
     }
     // Handler handle all the callbacks from View Mddek
