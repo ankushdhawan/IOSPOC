@@ -34,7 +34,6 @@ class CountryDetailViewModelTests: XCTestCase
         mockAPIService = MockService()
         var isSuccess = false
         var count = 0
-
         let client = CountryDetailApiClient(client: mockAPIService)
         let resource = GenericResource(path: "Country", method:.GET)
         let expect = XCTestExpectation(description: "reload closure triggered")
@@ -68,6 +67,8 @@ class CountryDetailViewModelTests: XCTestCase
             isSuccess = response.isSuccess
             count = response.value?.rows.count ?? 0
             self?.model = response.value!
+            self?.sut.countryInfo = self?.model
+            XCTAssertNotNil(self?.sut.successViewClosure)
             XCTAssertTrue(isSuccess == true,
                           "MOCK SERVICE DATA NOT LOAD")
             XCTAssertTrue(count > 0,
@@ -75,8 +76,17 @@ class CountryDetailViewModelTests: XCTestCase
             expect.fulfill()
         }
         
-        
     }
+    
+    func testAlertMessage(){
+       // sut.alertMessage
+        XCTAssertEqual(sut.alertMessage, "Error")
+    }
+
+    func testModelObject(){
+        XCTAssertNil(sut.countryInfo)
+    }
+    
     func testBasePathCorrect()
     {
         let servicePath = JCPostServicePath.countryDetail

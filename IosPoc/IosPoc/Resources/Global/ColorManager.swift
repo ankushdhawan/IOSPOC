@@ -12,9 +12,4 @@ struct ColorManager {
         return UIColor(displayP3Red: 132.0/255.0, green: 143.0/255.0, blue: 153.0/255.0, alpha: 1.0)
     }
     
-   
-    
-  
-   
-   
 }

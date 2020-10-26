@@ -38,7 +38,6 @@
 		10F3406C2545A48400ACC83A /* CountryDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F340692545A48200ACC83A /* CountryDataSourceTests.swift */; };
 		10F3406D2545A48400ACC83A /* CountryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3406A2545A48300ACC83A /* CountryModelTests.swift */; };
 		10F3406E2545A48400ACC83A /* CountryDetailVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3406B2545A48400ACC83A /* CountryDetailVCTests.swift */; };
-		10F340702545A4AC00ACC83A /* POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3406F2545A4AC00ACC83A /* POCTests.swift */; };
 		10F340722545A4C000ACC83A /* CountryViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F340712545A4C000ACC83A /* CountryViewModelTest.swift */; };
 		234A1B750D16BE22D857CEE8 /* Pods_IosPocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB69725160E063ECAD2AB4C /* Pods_IosPocTests.framework */; };
 		589A8DCAE99B667B938594B5 /* Pods_IosPocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17987CDFBF2C39C47773BC4D /* Pods_IosPocUITests.framework */; };
@@ -101,7 +100,6 @@
 		10F340692545A48200ACC83A /* CountryDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDataSourceTests.swift; sourceTree = "<group>"; };
 		10F3406A2545A48300ACC83A /* CountryModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModelTests.swift; sourceTree = "<group>"; };
 		10F3406B2545A48400ACC83A /* CountryDetailVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailVCTests.swift; sourceTree = "<group>"; };
-		10F3406F2545A4AC00ACC83A /* POCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POCTests.swift; sourceTree = "<group>"; };
 		10F340712545A4C000ACC83A /* CountryViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewModelTest.swift; sourceTree = "<group>"; };
 		17987CDFBF2C39C47773BC4D /* Pods_IosPocUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosPocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3E59287DEBF608D9E84C48 /* Pods-IosPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosPoc.release.xcconfig"; path = "Target Support Files/Pods-IosPoc/Pods-IosPoc.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 		10F33FFC2545796E00ACC83A /* IosPocTests */ = {
 			isa = PBXGroup;
 			children = (
-				10F3406F2545A4AC00ACC83A /* POCTests.swift */,
 				10F340692545A48200ACC83A /* CountryDataSourceTests.swift */,
 				10F3406B2545A48400ACC83A /* CountryDetailVCTests.swift */,
 				10F340712545A4C000ACC83A /* CountryViewModelTest.swift */,
@@ -679,7 +676,6 @@
 				10F3406E2545A48400ACC83A /* CountryDetailVCTests.swift in Sources */,
 				10F33FFE2545796E00ACC83A /* IosPocTests.swift in Sources */,
 				10F3406C2545A48400ACC83A /* CountryDataSourceTests.swift in Sources */,
-				10F340702545A4AC00ACC83A /* POCTests.swift in Sources */,
 				10F3406D2545A48400ACC83A /* CountryModelTests.swift in Sources */,
 				10F340722545A4C000ACC83A /* CountryViewModelTest.swift in Sources */,
 			);

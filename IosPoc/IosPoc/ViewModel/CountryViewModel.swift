@@ -50,7 +50,6 @@ class CountryViewModel : GenericViewModel{
                    self.countryInfo = country
                    self.countryInfo?.rows = rows
                 }
-                
             } else {
                 self.alertMessage = response.error.debugDescription
             }

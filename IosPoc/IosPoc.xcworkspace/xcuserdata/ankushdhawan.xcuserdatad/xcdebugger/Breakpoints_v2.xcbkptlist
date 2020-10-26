@@ -20,5 +20,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4355F530-88C3-4128-A58A-25D4CCDB6E96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosPocTests/CountryViewModelTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "testRealServerApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4355F530-88C3-4128-A58A-25D4CCDB6E96 - 1884421fce9b842"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosPocTests.CountryDetailViewModelTests.testRealServerApi() -&gt; ()"
+                  moduleName = "IosPocTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankushdhawan/Documents/IosPoc/IOSPOC/IosPoc/IosPocTests/CountryViewModelTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "470">
+               </Location>
+               <Location
+                  uuid = "4355F530-88C3-4128-A58A-25D4CCDB6E96 - 7b20d073f2eafe55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (IosPoc.APIResponse&lt;IosPoc.CountryModel, IosPoc.APIError&gt;) -&gt; () in IosPocTests.CountryDetailViewModelTests.testRealServerApi() -&gt; ()"
+                  moduleName = "IosPocTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ankushdhawan/Documents/IosPoc/IOSPOC/IosPoc/IosPocTests/CountryViewModelTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "273">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

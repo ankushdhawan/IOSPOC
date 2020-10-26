@@ -30,5 +30,13 @@ class IosPocTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testBackgroundColorConstant(){
+        XCTAssertNotNil(ColorManager.BackgroundColor)
+    }
+    
+    func testTextColorConstant(){
+        XCTAssertNotNil(ColorManager.TextGrayColor)
+    }
 
 }
