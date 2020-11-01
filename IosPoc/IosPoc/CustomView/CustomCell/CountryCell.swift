@@ -12,7 +12,7 @@ class CountryCell: UICollectionViewCell {
     var titleLable:UILabel = {
         var label = UILabel()
         label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 18)
+        label.font =  UIFont(name:"HelveticaNeue-Bold",size:17)
         label.textAlignment = .left
         label.numberOfLines = 2
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -21,7 +21,7 @@ class CountryCell: UICollectionViewCell {
     var descriptionLable:UILabel = {
         var label = UILabel()
         label.textColor = .black
-        label.font = UIFont.systemFont(ofSize: 17)
+        label.font = UIFont(name:"HelveticaNeue",size:17)
         label.textAlignment = .left
         label.numberOfLines = 0
         //label.backgroundColor = UIColor.cyan
@@ -34,6 +34,7 @@ class CountryCell: UICollectionViewCell {
         imageView.contentMode = .scaleAspectFill
       //imageView.image = UIImage(named: "PlaceHolder")
         imageView.clipsToBounds = true
+        imageView.layer.cornerRadius = 5
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -62,7 +63,14 @@ class CountryCell: UICollectionViewCell {
         containerView.addSubview(descriptionLable)
         // SET MODEL CONTENT TO LABEL AND IMAGE
         titleLable.text = model?.title
+        if #available(iOS 13.0, *) {
+        titleLable.textColor = .dynamicTextColor
+        descriptionLable.textColor = .dynamicTextColor
+        }
+        
         descriptionLable.text = model?.description
+        
+        
         // CHECK IMAGE IS URL NOT LOADING IMAGE THEN SHOW PLACEHOILDER IMAGE
         let url = URL(string: model?.imageHref ?? "")
         countryImageView.kf.indicatorType = .activity

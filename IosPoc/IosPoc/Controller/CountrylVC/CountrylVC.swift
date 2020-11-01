@@ -30,6 +30,12 @@ class CountryVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         customInit()
+        if #available(iOS 13.0, *) {
+            self.countryDescCollectionView.backgroundColor = .dynamicBackgroundColor
+        } else {
+            // Fallback on earlier versions
+        }
+
         fetchCountryDetail()
         setUpHandler()
         // Do any additional setup after loading the view, typically from a nib.

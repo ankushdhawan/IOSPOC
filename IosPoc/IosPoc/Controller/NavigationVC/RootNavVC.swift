@@ -20,7 +20,7 @@ class RootNavVC: UINavigationController {
    private func customInit()
     {
         // Set Navigation Color
-        UINavigationBar.appearance().backgroundColor = UIColor.blue
+        UINavigationBar.appearance().backgroundColor = .dynamicNavigationBarColor
         // Set root view controller in the navigation
         let rootVC = CountryVC()
         rootVC.view.backgroundColor = UIColor.red
